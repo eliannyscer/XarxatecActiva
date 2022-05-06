@@ -1,0 +1,70 @@
+body {
+    background-color: #212121;
+}
+
+header {
+    background:#00796b;
+    color: #F7FFF7;
+}
+
+h1 {
+    color: mediumseagreen;
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    text-align: justify;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+main {
+background: #00796b;
+color: #F7FFF7;
+border: 13px solid gray;
+}
+
+
+.William {
+    float:right;
+    clear:right;
+    width: 680px;
+}
+
+.book {
+    width: 400px;
+    border-radius: 10px
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a {
+text-decoration: none;
+border: 0.2px solid #000;
+color: #000;
+background: #e6e4e4;
+padding: 5px;
+border-radius: 1px;
+
+}
+
+.buy {
+    text-align: center;
+}
