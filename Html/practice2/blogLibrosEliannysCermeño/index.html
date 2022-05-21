@@ -2,6 +2,8 @@
 <html lang="es">
 
 <head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="witget.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="">
@@ -9,20 +11,161 @@
 </head>
 
 <body>
-    <img src="C:\Users\elian\Downloads\header.png" alt="">
-    <img src="https://github.com/eliannyscer/python-projects/blob/main/rock-paper-scissors/scissor-computer.png?raw=true" alt="aaa">
+<header>
+<img src="img/basicHeader.png" alt="header">
+</header>
+
 <nav>
     <ul>
-        <li><strong>Home</strong></li>
-        <li><a href="http://127.0.0.1:5500/login.html" target="_blank">Login</a></li>
-        <li><a href="http://127.0.0.1:5500/rese%C3%B1as.html" target="_blank">Reseñas</a></li>
-        <li><a href="" target="_blank">Última entrada</a></li>
-        <li><a href="" target="_blank">Sobre el autor</a></li>
-        <li><a href="http://127.0.0.1:5500/contacto.html" target="_blank">Contacto</a></li>
-        <li><a href="http://127.0.0.1:5500/iframe.html" target="_blank">Situación</a></li>
+        <li><a href="login.html" target="_blank">Login</a></li>
+        <li><a href="reseñas.html" target="_blank">Reseñas</a></li>
+        <li><a href="reseñas.html#ultimaEntrada"  target="_blank">Última entrada</a></li>
+        <li><a href="sobreElAutor.html" target="_blank">Sobre el autor</a></li>
+        <li><a href="contacto.html" target="_blank">Contacto</a></li>
+        <li><a href="iframe.html" target="_blank">Situación</a></li>
     </ul>
 </nav>
 
+    <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
+    <style type="text/css" media="screen">
+        .gr_custom_container_ {
+            /* customize your Goodreads widget container here*/
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 10px 5px 10px 5px;
+            background-color: #FFF;
+            color: #000;
+            width: 300px
+        }
+    
+        .gr_custom_header_ {
+            /* customize your Goodreads header here*/
+            border-bottom: 1px solid gray;
+            width: 100%;
+            margin-bottom: 5px;
+            text-align: center;
+            font-size: 120%
+        }
+    
+        .gr_custom_each_container_ {
+            /* customize each individual book container here */
+            width: 100%;
+            clear: both;
+            margin-bottom: 10px;
+            overflow: auto;
+            padding-bottom: 4px;
+            border-bottom: 1px solid #aaa;
+        }
+    
+        .gr_custom_book_container_ {
+            /* customize your book covers here */
+            overflow: hidden;
+            height: 60px;
+            float: left;
+            margin-right: 4px;
+            width: 39px;
+        }
+    
+        .gr_custom_author_ {
+            /* customize your author names here */
+            font-size: 10px;
+        }
+    
+        .gr_custom_tags_ {
+            /* customize your tags here */
+            font-size: 10px;
+            color: gray;
+        }
+    
+        .gr_custom_rating_ {
+            /* customize your rating stars here */
+            float: right;
+        }
+    </style>
+    
+    <div id="gr_custom_widget_">
+        <div class="gr_custom_container_">
+            <h2 class="gr_custom_header_">
+                <a style="text-decoration: none;" rel="nofollow"
+                    href="https://www.goodreads.com/review/list/151190779-eliannys-cerme-o?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget">Eliannys&#39;s
+                    books</a>
+            </h2>
+            <div class="gr_custom_each_container_">
+                <div class="gr_custom_book_container_">
+                    <a title="Atomic Habits: An Easy &amp; Proven Way to Build Good Habits &amp; Break Bad Ones"
+                        rel="nofollow"
+                        href="https://www.goodreads.com/review/show/4722242720?utm_medium=api&amp;utm_source=custom_widget"><img
+                            alt="Atomic Habits: An Easy &amp; Proven Way to Build Good Habits &amp; Break Bad Ones"
+                            border="0"
+                            src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535115320l/40121378._SY75_.jpg" /></a>
+                </div>
+                <div class="gr_custom_rating_">
+                    <span class=" staticStars notranslate" title="it was amazing"><img alt="it was amazing"
+                            src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                            src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                            src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                            src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                            src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /></span>
+                </div>
+                <div class="gr_custom_title_">
+                    <a rel="nofollow"
+                        href="https://www.goodreads.com/review/show/4722242720?utm_medium=api&amp;utm_source=custom_widget">Atomic
+                        Habits: An Easy &amp; Proven Way to Build Good Habits &amp; Break Bad Ones</a>
+                </div>
+                <div class="gr_custom_author_">
+                    by <a rel="nofollow" href="https://www.goodreads.com/author/show/7327369.James_Clear">James Clear</a>
+                </div>
+                <div class="gr_custom_review_">
+                    Este libro no nos dice nada nuevo pero si nos recuerda las cosas que debemos hacer para ser constantes,
+                    el ser humano aprende con la repetición por tal razón siento que este libro es bueno. Si ponemos en
+                    práctica sus consejos y hacemos l...
+                </div>
+            </div>
+            <div class="gr_custom_each_container_">
+                <div class="gr_custom_book_container_">
+                    <a title="EL Monje Que Vendio Su Ferrari" rel="nofollow"
+                        href="https://www.goodreads.com/review/show/4722229392?utm_medium=api&amp;utm_source=custom_widget"><img
+                            alt="EL Monje Que Vendio Su Ferrari" border="0"
+                            src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530978742l/40739629._SY75_.jpg" /></a>
+                </div>
+                <div class="gr_custom_rating_">
+                    <span class=" staticStars notranslate" title="it was amazing"><img alt="it was amazing"
+                            src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                            src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                            src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                            src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                            src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /></span>
+                </div>
+                <div class="gr_custom_title_">
+                    <a rel="nofollow"
+                        href="https://www.goodreads.com/review/show/4722229392?utm_medium=api&amp;utm_source=custom_widget">EL
+                        Monje Que Vendio Su Ferrari</a>
+                </div>
+                <div class="gr_custom_author_">
+                    by <a rel="nofollow" href="https://www.goodreads.com/author/show/24678.Robin_S_Sharma">Robin S.
+                        Sharma</a>
+                </div>
+                <div class="gr_custom_review_">
+                    Es un maravilloso libro si quieres desconectarte de todo el ruido que ofrece la vida cotidiana y
+                    conectarte con tu esperitualidad para mejorar en ciertos aspectos de tu vida. Sin duda encontraras
+                    buenos mensajes que pueden motivarte y ha...
+                </div>
+            </div>
+            <br style="clear: both" />
+            <center>
+                <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0"
+                        src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
+            </center>
+            <noscript>
+                Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Eliannys, and
+                even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
+            </noscript>
+        </div>
+    
+    </div>
+    <script
+        src="https://www.goodreads.com/review/custom_widget/151190779.Eliannys's%20bookshelf:%20read?cover_position=&cover_size=&num_books=5&order=&shelf=&sort=&widget_bg_transparent="
+        type="text/javascript" charset="utf-8"></script>
 </body>
 
 </html>
